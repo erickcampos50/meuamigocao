@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amigo Cão - Proteção Animal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="profile">
+            <img src="images\logo MAC.jpg" alt="profile-image">
+            <h1>Faça sua doação para o Meu Amigo Cão</h1>
+        </div>
+        <a href="pix.html" target="_self">
+            <div class="pix">
+                <img src="https://img.icons8.com/fluency/48/000000/pixel-heart.png" alt="Icone-pix" />
+                <p>Faça usando <span> PIX </span></p>
+            </div>
+        </a>
+		<a href="pix.html" target="_self">
+            <div class="pix">
+                <img src="https://img.icons8.com/fluency/48/000000/pixel-heart.png" alt="Icone-pix" />
+                <p>Faça usando <span> PIX </span></p>
+            </div>
+        </a>
+		<a href="pix.html" target="_self">
+            <div class="pix">
+                <img src="https://img.icons8.com/fluency/48/000000/pixel-heart.png" alt="Icone-pix" />
+                <p>Faça usando <span> PIX </span></p>
+            </div>
+        </a>
+		<a href="index.html" target="_self">
+            <div class="voltar">
+                <img src="images\logo MAC.jpg" alt="Icone-voltar" />
+                <p>Voltar <span> pra página principal </span></p>
+            </div>
+        </a>
+
+    </main>
+</body>
+
+</html>

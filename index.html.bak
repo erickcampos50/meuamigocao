@@ -5,32 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Amigo Cão</title>
+    <title>Meu Amigo Cão - Proteção Animal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <div class="profile">
-            <img src="Profile.jpeg" alt="profile-image">
-            <h1>Ajude o Meu Amigo Cão</h1>
+            <img src="images\logo MAC.jpg" alt="profile-image">
+            <h1>Novo site do Meu Amigo Cão</h1>
         </div>
-        <a href="https://github.com/Rajni2002" target="blank">
-            <div class="github">
-                <img src="https://img.icons8.com/fluency/48/000000/github.png" alt="Github-icon" />
-                <p>Collaborate <span>with me on Github</span></p>
+        <a href="https://www.instagram.com/meuamigocao.mac" target="blank">
+            <div class="instagram">
+                <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Icone-Insta" />
+                <p>Veja <span> nosso Instagram</span></p>
             </div>
         </a>
-        <a href="https://twitter.com/rajni2k2" target="blank">
-            <div class="Twitter">
-                <img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="Twitter-icon" />
-                <p>Read <span>my threads Twitter</span></p>
+        <a href="https://facebook.com/meuamigocaoipatinga" target="blank">
+            <div class="Facebook">
+                <img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Icone-Face" />
+                <p>Veja <span> nosso Facebook</span></p>
             </div>
         </a>
-        <a href="https://www.linkedin.com/in/rajnikant-dash-2k2/" target="blank">
-            <div class="Linkedin">
-                <img src="https://img.icons8.com/fluency/48/000000/instagram-new--v2.png" alt="Instagram" />
-                <p>Connect <span>with me on Linkedin</span></p>
+        <a href="doacoes.html" target="_self">
+            <div class="Doacoes">
+                <img src="https://img.icons8.com/external-filled-outline-geotatah/64/000000/external-pet-pet-lover-society-filled-outline-filled-outline-geotatah-33.png" alt="Icone-doacoes" />
+                <p>Apoie <span>nosso trabalho com uma doação</span></p>
             </div>
         </a>
     </main>

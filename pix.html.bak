@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amigo Cão - Proteção Animal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="profile">
+            <img src="images\logo MAC.jpg" alt="profile-image">
+            <h1>Clique na chave que deseja usar</h1>
+        </div>
+        <a onclick="copiaPix1()" target="_self">
+            <div class="pix">
+                <img src="https://img.icons8.com/fluency/48/000000/dog-bone.png" alt="Icone-pix" />
+                <p>CNPJ: <span> 20.250.937/0001-22 </span></p>
+            </div>
+        </a>
+		 <a onclick="copiaPix2()" target="_self">
+            <div class="pix">
+                <img src="https://img.icons8.com/fluency/48/000000/happy.png" alt="Icone-pix" />
+                <p>CNPJ: <span> 20.250.937/0001-22 </span></p>
+            </div>
+        </a>
+		<a href="index.html" target="_self">
+            <div class="voltar">
+                <img src="images\logo MAC.png" alt="Icone-voltar" />
+                <p>Voltar <span> pra página principal </span></p>
+            </div>
+        </a>
+	
+	
+    </main>
+
+
+<script>
+function copiaPix1() {
+  /* Get the text field */
+  var Pix1 = "20.250.937/0001-22";
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(Pix1);
+  
+  /* Alert the copied text */
+  alert("Chave copiada com sucesso: " + Pix1);
+}
+function copiaPix2() {
+  /* Get the text field */
+  var Pix2 = "20.250.937/0001-22";
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(Pix1);
+  
+  /* Alert the copied text */
+  alert("Chave copiada com sucesso: " + Pix2);
+}
+</script>
+</body>
+
+</html>
