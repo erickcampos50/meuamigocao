@@ -126,9 +126,9 @@ a div:active {
     width: 70vw;
   }
 }
-
-@media (max-width: 400px) {
+/* Essa seção é responsável pelo erro de exibição dos botões em tela pequena */
+/* @media (max-width: 400px) {
   main a div p span {
     display: none;
   }
-}
+} */
